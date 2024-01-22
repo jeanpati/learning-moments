@@ -1,4 +1,9 @@
+import { AllPosts } from "./components/generalview/AllPosts";
 
 export const App = () => {
-  return <div>Hello World!</div>
-}
+  return (
+    <>
+      <AllPosts />
+    </>
+  );
+};
